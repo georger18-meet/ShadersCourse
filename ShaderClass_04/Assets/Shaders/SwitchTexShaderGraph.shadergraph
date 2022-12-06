@@ -47,9 +47,6 @@
         },
         {
             "m_Id": "ccd59a070f9d4f2eae5a16101b44d0b1"
-        },
-        {
-            "m_Id": "843e2ced7d9a4652bb9b2f7b97c4c9d2"
         }
     ],
     "m_GroupDatas": [],
@@ -78,9 +75,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "843e2ced7d9a4652bb9b2f7b97c4c9d2"
+                    "m_Id": "e12c0072b59443d79c55736187ba6608"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 2
             }
         },
         {
@@ -100,43 +97,15 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "843e2ced7d9a4652bb9b2f7b97c4c9d2"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "ccd59a070f9d4f2eae5a16101b44d0b1"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "b46a6b0cf47a4c32981e6c998cdae253"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "6350c976dc9048dc9d4a0b167c9e2ec1"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "ccd59a070f9d4f2eae5a16101b44d0b1"
-                },
-                "m_SlotId": 3
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "e12c0072b59443d79c55736187ba6608"
-                },
-                "m_SlotId": 2
             }
         },
         {
@@ -221,7 +190,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "028805154c314a409a8d910aa6f71d0a",
     "m_Id": 0,
-    "m_DisplayName": "Interveral",
+    "m_DisplayName": "Interval",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -615,30 +584,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "59ffaedd4f55426697a630a6d2f7cf41",
-    "m_Id": 1,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "5b9a57a461124e308bf706d988266021",
     "m_Id": 2,
@@ -890,41 +835,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SineNode",
-    "m_ObjectId": "843e2ced7d9a4652bb9b2f7b97c4c9d2",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Sine",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -765.0,
-            "y": 741.0,
-            "width": 208.0,
-            "height": 278.00006103515627
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "e532717eca2f48b0a895a7925a8ede77"
-        },
-        {
-            "m_Id": "59ffaedd4f55426697a630a6d2f7cf41"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "899516a514bb4628aca6417d531710eb",
     "m_Name": "",
@@ -1088,10 +998,10 @@
     "m_Guid": {
         "m_GuidSerialized": "1556f575-4e3e-45db-ae4c-22196d07c076"
     },
-    "m_Name": "Interveral",
+    "m_Name": "Interval",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Interveral",
-    "m_DefaultReferenceName": "_Interveral",
+    "m_RefNameGeneratedByDisplayName": "Interval",
+    "m_DefaultReferenceName": "_Interval",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1312,10 +1222,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -520.9999389648438,
-            "y": 412.0,
-            "width": 208.0,
-            "height": 326.0
+            "x": -451.9999084472656,
+            "y": 584.7999877929688,
+            "width": 208.00003051757813,
+            "height": 325.5999755859375
         }
     },
     "m_Slots": [
@@ -1432,30 +1342,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "e532717eca2f48b0a895a7925a8ede77",
-    "m_Id": 0,
-    "m_DisplayName": "In",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "In",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
 }
 
 {
